@@ -11,7 +11,16 @@ No account, no sign-in, and it is free.
 **This repository hosts the public downloads, changelog, and issue tracker.**
 The application is proprietary; the source code is not published here.
 
-See [CHANGELOG.md](CHANGELOG.md) for what's new in each release.
+## What's new in v1.1.0
+
+- A resume builder: five templates, import from PDF or Word, and offline analysis
+- Interview suite revamp: a searchable question bank and a STAR answer builder
+- Offer comparison: record what you were actually offered, kept separate from the
+  advertised range, compared side by side
+- One calendar for every interview and offer deadline, exportable as `.ics` or
+  linked straight to Google or Outlook
+
+See [CHANGELOG.md](CHANGELOG.md) for the full history.
 
 ---
 
@@ -35,25 +44,25 @@ A packaged macOS build is not published yet. It is planned for a future release.
 
 ## Features
 
-- **Application Tracking**: add, edit, and delete applications with company, role,
-  status, location, salary range, work type, relocation, source, and notes
-- **Status Pipeline**: track every stage from Planned -> Applied -> Assessment ->
-  Interview -> Offer -> Rejected, with planned roles excluded from conversion stats
-- **Analytics**: applications over time, weekly pace, pipeline health, a conversion
-  funnel, response time, and response rate by source split by whether the reply
-  progressed or was a rejection, each with a plain-English explanation tooltip
+- **Application Tracking**: every application, interview, offer and resume in one
+  place, with a full status pipeline from Planned -> Applied -> Assessment ->
+  Interview -> Offer -> Rejected
+- **Planned Pipeline**: track roles before you apply, watch their closing dates,
+  and log an application as applied in one click
+- **Analytics**: weekly pace, pipeline health, a conversion funnel, response time,
+  and response rate by source split by outcome, each with a plain-English
+  explanation
+- **Resume Builder**: five templates, import from PDF or Word, offline rule-based
+  analysis, and export to PDF or Word
+- **Interview Suite**: rounds, contacts, research notes, prep checklists, a
+  searchable question bank, and a STAR answer builder
+- **Calendar**: every interview and offer deadline on one grid, exportable as
+  `.ics` or linked straight to Google or Outlook
+- **Offer Comparison**: record what you were actually offered, kept separate from
+  the advertised range, and compare offers side by side
 - **World Map**: choropleth map of where you are applying, with click-to-zoom
-- **Offer Comparison**: side-by-side offer cards with relocation-adjusted salary
-  and work type
-- **Interview Suite**: track rounds, contacts, research notes, and a prep checklist
-- **Resume Storage**: keep up to three CVs locally, tag them, and link them to applications
 - **Import / Export**: import from CSV or Excel with automatic column mapping;
   export to CSV, Excel, or a full JSON backup
-- **Themes & Accent Color**: light, dark, and midnight themes, plus a custom accent
-  color applied across the top bar, buttons, and charts
-- **Privacy Mode**: blur salary figures and names for screen sharing
-- **Update Notifications**: Seisin checks GitHub on launch and tells you when a newer
-  version is available; this launch check can be turned off in Settings
 
 ---
 
