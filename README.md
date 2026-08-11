@@ -11,13 +11,15 @@ No account, no sign-in, and it is free.
 **This repository hosts the public downloads, changelog, and issue tracker.**
 The application is proprietary; the source code is not published here.
 
+See [CHANGELOG.md](CHANGELOG.md) for what's new in each release.
+
 ---
 
 ## Download
 
-**[Download Seisin for Windows](https://github.com/LudbaSH/seisin/releases/latest/download/Seisin-Setup.exe)**
+**[Download Seisin for Windows](https://github.com/abdulsheibani/seisin/releases/latest/download/Seisin-Setup.exe)**
 
-Or browse all versions on the [Releases page](https://github.com/LudbaSH/seisin/releases).
+Or browse all versions on the [Releases page](https://github.com/abdulsheibani/seisin/releases).
 
 1. Download `Seisin-Setup.exe` from the latest release
 2. Run the installer
@@ -80,7 +82,7 @@ details.
 
 ## Support
 
-Found a bug or have a feature request? [Open an issue](https://github.com/LudbaSH/seisin/issues)
+Found a bug or have a feature request? [Open an issue](https://github.com/abdulsheibani/seisin/issues)
 or email [support@getseisin.com](mailto:support@getseisin.com).
 
 ---
@@ -94,4 +96,4 @@ See [LICENSE](LICENSE) for the full terms. The Seisin source code is not open so
 
 ## Author
 
-Abdelrahman Sheibani ([GitHub](https://github.com/LudbaSH))
+Abdelrahman Sheibani ([GitHub](https://github.com/abdulsheibani))
