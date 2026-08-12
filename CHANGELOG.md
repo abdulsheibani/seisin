@@ -49,7 +49,7 @@ All notable changes to Seisin are documented here. This project follows
 - Imported files (a CV as PDF or Word, applications as CSV or Excel) are
   read on your own machine. Resume analysis runs entirely on-device.
 
-## v1.0.0 - 2026-07-16
+## v1.0.0 - 16/07/2026
 
 First public release. Windows only. Seisin is a free desktop app that keeps an
 entire job search in one place, every application, interview and offer, and turns
