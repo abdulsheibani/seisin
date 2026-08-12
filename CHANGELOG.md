@@ -3,7 +3,7 @@
 All notable changes to Seisin are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
-## v1.1.0 - TBD
+## v1.1.0 - 12/08/2026
 
 ### Planned pipeline
 - Track roles before you apply and watch their closing dates
