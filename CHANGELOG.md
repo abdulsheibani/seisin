@@ -3,7 +3,53 @@
 All notable changes to Seisin are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
-## v1.1.0 - 12/08/2026
+## 1.2.0 - 10/09/2026
+
+### macOS and Linux
+- Seisin now runs on macOS (Apple Silicon) and Linux, alongside Windows
+
+### Weekly goals
+- Set your own targets for the week, like applications sent or follow-ups
+  made, and tick them off from a checklist in the top bar
+
+### A report when you land a role
+- Accepting an offer opens a summary of the whole search: what worked,
+  your strongest sources, and how long it took
+
+### Resume builder
+- Every stored CV now shows the applications it was used on, and links
+  straight through to them
+
+### Applications
+- Each application can carry its own currency, filled in from the job
+  link where it is there, and kept through import and export
+- The offer comparison switches between your converted totals and each
+  offer in the currency it was made in
+- One click edits a row, and an application can move to its next stage
+  straight from the table
+
+### Withdrawing an application
+- A dedicated Withdrawn status keeps abandoned applications out of your
+  active pipeline
+- Cancelling an accepted offer now offers to reopen any applications you
+  withdrew along the way
+
+### Sounds and celebrations
+- Subtle sounds and a cleaner set of celebrations as an application moves
+  forward, with confetti kept for offers. All of it toggleable in Settings.
+- Status-change confirmations now show on a dimmed backdrop so they stay
+  legible over any page
+
+### Everywhere else
+- Faster startup and instant navigation, holding up with hundreds of
+  applications tracked
+- Search now ranks results by relevance across applications, interviews
+  and the question bank
+- Pasting a job link recognises more sites and fills in more of the form
+- A visual and contrast pass across the app, plus a long list of smaller
+  fixes
+
+## 1.1.0 - 12/08/2026
 
 ### Planned pipeline
 - Track roles before you apply and watch their closing dates
@@ -49,7 +95,7 @@ All notable changes to Seisin are documented here. This project follows
 - Imported files (a CV as PDF or Word, applications as CSV or Excel) are
   read on your own machine. Resume analysis runs entirely on-device.
 
-## v1.0.0 - 16/07/2026
+## 1.0.0 - 16/07/2026
 
 First public release. Windows only. Seisin is a free desktop app that keeps an
 entire job search in one place, every application, interview and offer, and turns
