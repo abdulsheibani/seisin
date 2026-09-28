@@ -3,6 +3,46 @@
 All notable changes to Seisin are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## 1.3.0 - 28/09/2026
+
+### Cover letter builder
+- A new Cover Letters area, alongside resumes in Documents: paragraph-by-paragraph
+  prompts help you write your own letter, nothing is generated for you
+- A real header: your contact details, who you're writing to, and a sign-off
+- A rule-based completeness check for each section, and export to PDF or Word
+- Attach a letter to an application, the same way resumes already link through
+- Resume and cover letter exports never run onto a second page: if the content
+  would, Seisin tightens spacing and text size automatically and lets you know
+
+### Network
+- Track the people behind your search separately from any one application:
+  recruiters, referrals, coworkers, people from school, and everyone in between
+- Log a dated note after each conversation, and tag a contact to an application
+- Adding an application flags anyone you already know at that company
+- Writing a letter for a company where you already know someone surfaces
+  that contact too, with a nudge to check with them first before you name
+  them; the wording is still yours, never generated for you
+
+### Free plan limits
+- Exporting a resume is 10/month and exporting a cover letter is 3/week, whether
+  as PDF, Word, or print. A save you cancel does not count, and Print is
+  unavailable once a limit is reached so it cannot be used to get around it
+- Adding new contacts to Network is 20 in your first 30 days, then 5/month
+- Saving, editing, and viewing are never limited, and nothing you already have is
+  removed
+- Settings has a new Your Free Plan section showing what is left and when each
+  limit resets, and each action shows its remaining count before you use it
+
+### Applications
+- A No Response status for roles that went quiet, kept separate from
+  Rejected and out of the "still waiting" reminder
+- The Add/Edit form is wider, with more fields visible per row
+
+### Everywhere else
+- Settings moved to its own icon in the top bar, making room for Network
+  alongside the other sections
+- Ctrl+scroll or a trackpad pinch zooms the resume and cover letter preview
+
 ## 1.2.0 - 10/09/2026
 
 ### macOS and Linux

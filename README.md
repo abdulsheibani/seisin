@@ -11,19 +11,23 @@ It runs on Windows, macOS, and Linux. No account, no sign-in, and it is free.
 **This repository hosts the public downloads, changelog, and issue tracker.**
 The application is proprietary; the source code is not published here.
 
-## What's new in 1.2.0
+## What's new in 1.3.0
 
-- **Seisin now runs on macOS and Linux**, alongside Windows
-- **Weekly goals**: set your own targets for the week and tick them off from the
-  top bar
-- **A report when you land a role**: accepting an offer opens a summary of the
-  whole search, your strongest source and resume, and how long it took
-- **A cleaner Withdrawn flow**: abandoned applications get their own status and
-  stay out of your active pipeline
-- **Per-application currency**, an original-currency view on the offer comparison,
-  and one-click editing on the Applications table
-- Faster startup and navigation, ranked search across the app, and a visual pass
-  throughout
+- **A free cover letter builder**: paragraph-by-paragraph prompts help you write
+  your own letter in Documents, nothing is generated for you. A real header, a
+  rule-based completeness check, and export to PDF or Word, never running onto a
+  second page. Attach a letter to an application.
+- **Network**: track the people behind your search, recruiters, referrals,
+  coworkers, and everyone in between, separate from any one application, with a
+  dated note after each conversation.
+- **The two connect**: add an application for a company where you already know
+  someone and Network flags it; write a cover letter for that company and the
+  same contact shows up under your opening paragraph, with a nudge to check
+  with them first.
+- **Free plan limits**: exporting a resume is 10/month, exporting a cover letter
+  is 3/week, and adding new contacts to Network is 20 in your first 30 days then
+  5/month. Saving, editing, and viewing are never limited, nothing you already
+  have is removed, and Settings shows what is left and when it resets.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full history.
 
@@ -51,7 +55,7 @@ None of the builds are code-signed yet, so each platform shows a first-run warni
 - **Application tracking**: company, role, status, location, salary range and
   currency, salary period, work type, employment type, relocation, source and
   notes, with a Planned -> Applied -> Assessment -> Interview -> Offer -> Rejected
-  pipeline plus a Withdrawn status
+  pipeline plus Withdrawn and No Response statuses
 - **Planned pipeline**: track roles before you apply, watch their closing dates,
   and log an application as applied in one click
 - **Analytics**: weekly pace, pipeline health, a conversion funnel, response time,
@@ -64,8 +68,15 @@ None of the builds are code-signed yet, so each platform shows a first-run warni
 - **Resume builder**: five templates with full control over fonts, spacing,
   colour, accent and section order; import from PDF or Word; offline analysis;
   export to PDF or Word; and a link from each CV to the applications it was sent with
-- **Interview suite**: rounds, contacts, research notes, prep checklists, a
-  searchable question bank, and a STAR answer builder
+- **Cover letter builder**: paragraph-by-paragraph prompts help you write your own
+  letter, never generated for you, with a real header, a rule-based completeness
+  check, export to PDF or Word, and an automatic one-page layout fit
+- **Interview suite**: rounds, research notes, prep checklists, a searchable
+  question bank, and a STAR answer builder
+- **Network**: track recruiters, referrals, coworkers and everyone else behind
+  your search, independent of any one application, with dated notes after each
+  conversation, tagging to an application, and a permission-checked surfacing of
+  who you know both when adding an application and when writing a cover letter
 - **Calendar**: every interview and offer deadline on one grid, exportable as
   `.ics` or linked straight to Google or Outlook
 - **Offer comparison**: record what you were actually offered, kept separate from
@@ -87,6 +98,12 @@ Seisin is free and stays free. A paid tier will come later so the project can su
 itself, but the rule is that every feature has a usable free version and paying buys
 depth rather than access. The tracker, your full history, and the analytics you see
 today do not move behind a paywall.
+
+From 1.3, three things have generous limits on the free plan: exporting a resume
+(10/month), exporting a cover letter (3/week), and adding new contacts to Network
+(20 in your first 30 days, then 5/month). Saving, editing, and viewing are never
+limited, nothing you already have is removed, and Settings shows what is left and
+when each limit resets.
 
 ## Data and the network
 
