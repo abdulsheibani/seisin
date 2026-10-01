@@ -1,11 +1,13 @@
 # Seisin
 
-> Every application in one place. Watch the patterns surface.
+> Spend your time applying, not organising. Your whole job search, in one place.
 
-Seisin keeps your whole job search in one place, every application, interview and
-offer, and turns it into analytics automatically. Instead of a spreadsheet that
-records the search without ever explaining it, Seisin reads the patterns back to
-you: your pace, your pipeline, and which sources are actually getting you replies.
+Seisin is a free job search manager for your desktop. Applications, resumes and
+cover letters, interviews, contacts and offers all live together, and much of the
+admin is handled for you: paste a job link and the details fill in, the analytics
+build themselves from what you log, and people you know at a company are flagged
+as you add the application. It shows you what is actually working: your pace,
+your pipeline, and which sources are getting you replies.
 It runs on Windows, macOS, and Linux. No account, no sign-in, and it is free.
 
 **This repository hosts the public downloads, changelog, and issue tracker.**
@@ -96,7 +98,7 @@ None of the builds are code-signed yet, so each platform shows a first-run warni
 
 Seisin is free and stays free. A paid tier will come later so the project can sustain
 itself, but the rule is that every feature has a usable free version and paying buys
-depth rather than access. The tracker, your full history, and the analytics you see
+depth rather than access. The core app, your full history, and the analytics you see
 today do not move behind a paywall.
 
 From 1.3, three things have generous limits on the free plan: exporting a resume
