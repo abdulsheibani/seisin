@@ -18,7 +18,7 @@ The application is proprietary; the source code is not published here.
 - **Save jobs from your browser**: a free extension for Chrome, Edge and Firefox.
   A small mark appears on job postings: click it and save the job as Planned or
   Applied. Unlimited, and it talks only to Seisin on your computer. Get it for
-  [Chrome](https://chromewebstore.google.com/detail/seisin/gladlpaggiojfafhfbdmgeahocllmkgh)
+  [Chrome](https://chromewebstore.google.com/detail/seisin/gladlpaggiojfafhfbdmgeahocllmgkh)
   (also Brave and Opera), [Edge](https://microsoftedge.microsoft.com/addons/detail/ijgmdaaikcodckhfgdfcnfofiogdkhaa)
   or [Firefox](https://addons.mozilla.org/addon/seisin/).
 - **Runs in the background, if you want it to**: Seisin can stay in the tray and
