@@ -3,6 +3,95 @@
 All notable changes to Seisin are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## 1.4.0 - 26/10/2026
+
+### Save jobs from your browser
+- A free Seisin extension for Chrome, Edge and Firefox (Brave and Opera use the
+  Chrome one). On a job posting a small Seisin mark appears in the corner: click
+  it, check the role and company it found, and click Planned or Applied. The
+  location, salary, work type and description come with it
+- Works on any job board or careers page that publishes the job's details, with
+  dedicated reading for LinkedIn, Indeed, Glassdoor, Workday, Google, Amazon,
+  Apple and more; anything it can't find you type in. Saving is unlimited
+- The toolbar icon opens the same card on any page, and the mark can be hidden
+  on any site
+- Saving the same posting twice warns you first, with the date you saved it
+- The job description is saved with it, so you still have the advert after it
+  comes down. Read it on the application and in the Interview Suite, and search
+  it from Applications ("which job mentioned visa sponsorship?")
+- Saving as Applied lets you pick the resume you sent
+- Seisin closed? Choose "Add it when Seisin opens": the job waits in your browser
+  and goes into your Planned list within seconds of Seisin opening
+- Alt+Shift+S opens it from the keyboard (Option+Shift+S on a Mac)
+- The first time you install it, a short setup page opens once in a new tab on getseisin.com
+- To show its mark it checks the pages you open for job details, inside your
+  browser, and sends nothing; a posting is sent only when you save it, and only
+  to Seisin on your own computer: no account, no analytics
+- Connect it once with a button in the extension and Allow in Seisin, or with a
+  one-time code from Settings. Disconnect any browser in Settings
+- Back in Seisin, a summary shows the jobs saved from your browser while you
+  were away
+
+### Job descriptions
+- Every application has a Job description section: filled in by the extension or
+  by pasting a job link, or paste the advert in yourself
+- CSV and Excel exports include it
+
+### Runs in the background, if you want it to
+- Seisin can stay in the tray when you close its window and open when you sign
+  in, so the extension can save jobs any time. You choose on first launch, and
+  can change it in Settings under Startup. Nothing is sent while it runs
+
+### Updates install themselves
+- On Windows and the Linux AppImage, new versions download in the background and
+  install when you restart, with a Restart now / Later choice. Later installs it
+  the next time you quit
+- macOS and the .deb keep the update banner that links to the download page
+- Settings shows the update's progress: checking, downloading, ready to restart
+
+### An anonymous launch count, only if you ask for it
+- At most once a day Seisin can send a simple counter: the version, the operating
+  system and the installer type. No identifier, no account, and nothing from your
+  job search (applications, offers, resumes, cover letters, interviews or notes)
+- It is off unless you tick the box on the welcome or What's New screen, or turn
+  it on in Settings
+- An optional one-tap "Where did you hear about Seisin?" in a small corner card,
+  asked once and sent once with the count
+
+### Backup, restore and delete
+- Back Up Everything now saves everything in one file: your data, uploaded resume
+  files and settings such as offer notes. The new Restore from Backup loads it
+  back, here or on another computer; before, the backup held applications only
+  and could not be restored
+- Export to Excel gives one workbook with a sheet each for applications, interview
+  rounds and questions, offers, Network, cover letters, resumes and weekly goals
+- Settings > Data Management has Delete All Data, which removes everything after
+  you type a confirmation, with the backup and the Excel copy offered first
+
+### Dates follow your own clock
+- Dates now use your own time zone instead of UTC: an application added just after
+  midnight gets your day, and the Added date, backup file names and the date a
+  free-plan limit resets all match your clock
+- Settings has a new Date Format: DD/MM/YYYY, MM/DD/YYYY or YYYY-MM-DD. It sets how
+  dates read across Seisin, and how a date like 03/04/2026 is read when you import
+- Weekly goals are filed under your own week start; goals saved by 1.2 and 1.3 are
+  moved to the right week automatically the first time you open 1.4
+
+### Smaller changes
+- Recruiter is now an application source, and CSV import recognises it
+- Apprenticeship is now an employment type, alongside Internship
+- The Interview Suite follows each application's stage: assessments (online tests, assessment centres, take-home tasks) get their own types, due dates and time limits, and an offer links to its offer sheet with a "Before you accept" checklist. Suggested checklists follow the rounds still ahead, next one first, and the list filters by stage
+- Source takes any job board: the common ones are listed (Glassdoor, Handshake, Reed and more), and you can type your own
+- Notifications, Settings and the Documents and Interview Suite tabs have a cleaner look, and Settings uses the full width of a large window
+- Deleting one thing (an application, a round, a contact, an offer sheet, a resume file) is now press and hold, with a few seconds to undo; bulk deletes still ask first
+- Long lists and panels fade at the edge when there's more to scroll; drop zones react as soon as a file is dragged over the window, and the resume builder's import takes a dropped file
+- Buttons that change their label (Saving..., Copied) ease to their new size, and the loading screen draws the Seisin mark
+- Every Analytics chart and the map can show their numbers as a table, and the "?" explanations (including how the best offer is chosen) open from the keyboard too
+- Keyboard use throughout: Escape closes only the topmost window, focus returns where it came from, and every control can be reached with Tab
+- Reaching a free-plan limit now says when it resets and that premium will lift it
+- Settings: "Check on Launch" is now "Check for Updates Automatically", next to the
+  new "Share an Anonymous Launch Count"
+
 ## 1.3.0 - 28/09/2026
 
 ### Cover letter builder

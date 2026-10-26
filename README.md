@@ -13,23 +13,20 @@ It runs on Windows, macOS, and Linux. No account, no sign-in, and it is free.
 **This repository hosts the public downloads, changelog, and issue tracker.**
 The application is proprietary; the source code is not published here.
 
-## What's new in 1.3.0
+## What's new in 1.4.0
 
-- **A free cover letter builder**: paragraph-by-paragraph prompts help you write
-  your own letter in Documents, nothing is generated for you. A real header, a
-  rule-based completeness check, and export to PDF or Word, never running onto a
-  second page. Attach a letter to an application.
-- **Network**: track the people behind your search, recruiters, referrals,
-  coworkers, and everyone in between, separate from any one application, with a
-  dated note after each conversation.
-- **The two connect**: add an application for a company where you already know
-  someone and Network flags it; write a cover letter for that company and the
-  same contact shows up under your opening paragraph, with a nudge to check
-  with them first.
-- **Free plan limits**: exporting a resume is 10/month, exporting a cover letter
-  is 3/week, and adding new contacts to Network is 20 in your first 30 days then
-  5/month. Saving, editing, and viewing are never limited, nothing you already
-  have is removed, and Settings shows what is left and when it resets.
+- **Save jobs from your browser**: a free extension for Chrome, Edge and Firefox.
+  A small mark appears on job postings: click it and save the job as Planned or
+  Applied. Unlimited, and it talks only to Seisin on your computer. Get it for
+  [Chrome](https://chromewebstore.google.com/detail/seisin/gladlpaggiojfafhfbdmgeahocllmkgh)
+  (also Brave and Opera), [Edge](https://microsoftedge.microsoft.com/addons/detail/ijgmdaaikcodckhfgdfcnfofiogdkhaa)
+  or [Firefox](https://addons.mozilla.org/addon/seisin/).
+- **Runs in the background, if you want it to**: Seisin can stay in the tray and
+  open when you sign in, so the extension can save jobs any time.
+- **Updates install themselves** on Windows and the Linux AppImage.
+- **Recruiter** is now an application source.
+- **Backup and restore everything**, and a **Date Format** setting (DD/MM/YYYY,
+  MM/DD/YYYY or YYYY-MM-DD); dates now follow your own time zone.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full history.
 
@@ -110,16 +107,21 @@ when each limit resets.
 ## Data and the network
 
 Your data is a SQLite database on your own machine, with no account and no sign-in, and
-there is no telemetry. An optional account with cloud sync is planned for a future
-version; it will stay optional, local-only will remain supported, and nothing is
-uploaded unless you choose it.
+nothing from your job search is ever sent anywhere. An optional account with cloud sync
+is planned for a future version; it will stay optional, local-only will remain
+supported, and nothing is uploaded unless you choose it.
 
-Seisin makes three network requests, none of which carry anything about you. A version
-check against the GitHub releases API runs on launch and can be turned off in Settings.
-The other two fire only when you click them: pasting a job URL fetches that public page
-to read the role and company, and the Offers screen can pull the European Central Bank's
-daily exchange rates. See the [Privacy page](https://getseisin.com/privacy.html) for
-details.
+Seisin makes four kinds of network request, none of which carry anything about you. An
+update check against GitHub runs on launch (on Windows and the Linux AppImage it also
+downloads updates and asks you to restart). An anonymous launch count, at most once a
+day, sends only the version, operating system and installer type, with no identifier;
+it is off unless you tick the box for it on the welcome screen or in Settings. The
+update check turns off with one click in Settings. The other two fire only when you click them: pasting a
+job URL fetches that public page to read the role and company, and the Offers screen
+can pull the European Central Bank's daily exchange rates. The browser extension adds no network requests: it checks pages for job details
+inside your browser, and talks only to Seisin at the local address 127.0.0.1 on your
+own computer, only when you save a job. See the
+[Privacy page](https://getseisin.com/privacy.html) for details.
 
 ---
 
