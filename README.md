@@ -19,7 +19,7 @@ The application is proprietary; the source code is not published here.
   A small mark appears on job postings: click it and save the job as Planned or
   Applied. Unlimited, and it talks only to Seisin on your computer. Get it for
   [Chrome](https://chromewebstore.google.com/detail/seisin/gladlpaggiojfafhfbdmgeahocllmgkh)
-  (also Brave and Opera), [Edge](https://microsoftedge.microsoft.com/addons/detail/ijgmdaaikcodckhfgdfcnfofiogdkhaa)
+  (also Brave and Opera), [Edge](https://microsoftedge.microsoft.com/addons/detail/seisin/ijgmdaaikcodckhfgdfcnfofiogdkhaa)
   or [Firefox](https://addons.mozilla.org/addon/seisin/).
 - **Runs in the background, if you want it to**: Seisin can stay in the tray and
   open when you sign in, so the extension can save jobs any time.
